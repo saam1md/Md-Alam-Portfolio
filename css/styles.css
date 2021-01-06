@@ -1,0 +1,214 @@
+/* Master Styles */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Nav Styles */
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    
+    
+}
+
+.nav-bar{
+    display: flex;
+    
+}
+
+.nav-wrapper > .nav-bar > div{
+    margin-left: 20px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    
+    
+    
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+   
+}
+
+.active-nav-link{
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
+/* Top Banner */
+h1{
+    font-size: 45px;
+}
+
+.orange-color{
+    color: orange;
+}
+
+.first-part{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.first-part img{
+    width: 75%;
+    margin-top: 15%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orangered;
+    background-image: linear-gradient(55deg, blue, tomato);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 900px;   
+}
+
+
+/* Middle Banner */
+.icon-space{
+    margin: 10px; 
+}
+
+h2{
+    margin-top: 100px;
+}
+
+/* Middle-Second-Banner */
+
+.working{
+    font-size: 45px;
+    text-align: center;
+}
+
+/* Middle Second Banner */
+
+.row,
+.row > .column{
+    padding: 8px;
+}
+
+.column{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin: 15px;
+    
+}
+
+.content img{
+    height: 209px;
+    width: 336px;
+    top: 1472px;
+    left: 951px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content{
+    /* background-color: #E5E5E5; */
+    background: linear-gradient(90deg, #4289FF -0.04%, #07F8C3 100.01%);
+    padding: 10px;
+}
+
+#work-inquiry{
+    position: absolute;
+    width: 1000px;
+    height: 225px;
+    left: 267px;
+    top: 1900px;
+    background: linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+    border-radius: 30px;
+    
+}
+
+.middle-left{
+    position: absolute;
+    width: 277px;
+    height: 64px;
+    left: 341px;
+    top: 1990px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 64px;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.middle-right a{
+    position: absolute;
+    width: 134px;
+    height: 60px;
+    left: 972px;
+    top: 1990px;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    font-weight: 900px; 
+    text-align: center; 
+    vertical-align: middle;
+    line-height: 65px;
+    width: 8rem;
+    
+}
+
+.my-blog{
+    text-align: center;
+    font-size: 40px;
+}
+
+.footer-heading{
+    margin: 10px;
+}
+
+.button-banner{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icon img{
+    height: 40px;
+    margin-right: 1.5rem;
+    
+
+}
+
+
+
+
+
+
+
+    
